@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap");
+
+// CSS VARIABLES
+:root {
+	// COLORS
+	--text: rgba(0, 0, 0, 1);
+	--bg: rgba(255, 255, 255, 1);
+	--accent: #0070c9;
+
+	// DARK MODE COLORS
+	@media (prefers-color-scheme: dark) {
+		--text: rgba(255, 255, 255, 1);
+		--bg: rgba(17, 17, 17, 1);
+		--accent: #e00003;
+	}
+}
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased; // Safari - Fixes the font-weight issue where text is too bold
+	-moz-osx-font-smoothing: grayscale; // Firefox - As above, but for Firefox
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	padding: 0;
+	margin: 0;
+	// STOP OVERFLOWING ELEMENTS
+	overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+img,
+video,
+svg {
+	display: block;
+	width: 100%;
+}
+
+h1,
+h2 {
+	margin: 0;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 2.1rem;
+	line-height: 1.38;
+	letter-spacing: -0.1rem;
+
+	@media screen and (min-width: 375px) {
+		font-size: 2.5rem;
+	}
+
+	@media screen and (min-width: 640px) {
+		font-size: 3rem;
+	}
+
+	@media screen and (min-width: 768px) {
+		font-size: 5rem;
+	}
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 1.2rem;
+
+	@media screen and (min-width: 375px) {
+		font-size: 1.5rem;
+	}
+
+	@media screen and (min-width: 768px) {
+		font-size: 2.5rem;
+	}
+}
+
+p {
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+a {
+	color: var(--accent);
+	text-decoration: none;
+	font-weight: 600;
+	display: inline-block;
+
+	&:after {
+		content: "";
+		width: 0px;
+		height: 1px;
+		display: block;
+		background: var(--accent);
+		transition: all 0.2s;
+	}
+
+	&:hover:after,
+	&:focus:after {
+		width: 100%;
+	}
+}
+
+.text-black {
+	color: var(--text);
+}
+
+.text-accent {
+	color: var(--accent);
+	font-weight: 600;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bg-white {
+	background-color: var(--bg);
+}
+
+.bg-black-trans {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 20px;
+
+	@media screen and (min-width: 768px) {
+		padding: 0 40px;
+	}
+}
+
+.padding-default {
+	padding: 60px 0;
+}

@@ -1,0 +1,54 @@
+// I'VE WORKED WITH
+.logo {
+	&-flex {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		margin-top: 50px;
+
+		&-item {
+			width: 40%;
+			padding: 5%;
+
+			&::after {
+				content: "";
+				flex: auto;
+			}
+
+			@media screen and (min-width: 768px) {
+				width: 26.333%;
+				padding: 3.5%;
+			}
+
+			@media screen and (min-width: 1024px) {
+				width: 18%;
+				padding: 3.5%;
+			}
+
+			@media screen and (min-width: 1280px) {
+				width: 13%;
+				padding: 3.5%;
+			}
+
+			svg {
+				fill: var(--text);
+				width: 100%;
+				// padding: 6.5%;
+				transition: all 0.6s;
+
+				// HOVER AND ACTIVE STATES
+				&:hover,
+				&:focus {
+					fill: var(--accent);
+				}
+			}
+
+			// REMOVE UNDERLINE EFFECT USED IN OTHER HYPERLINKS
+			&:after {
+				display: none;
+			}
+		}
+	}
+}

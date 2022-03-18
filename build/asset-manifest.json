@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1547ffe7.css",
+    "main.js": "/static/js/main.68bb5f28.js",
+    "static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_4896.jpg": "/static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_4896.d956bf60e9e879a4e57d.jpg",
+    "static/media/tania_mousinho_YlpfE9uCakE_unsplash_6016.jpg": "/static/media/tania_mousinho_YlpfE9uCakE_unsplash_6016.83c6cf28c5c1d8fafd61.jpg",
+    "static/media/henry_be_DpI_wydgJM_unsplash_4908.jpg": "/static/media/henry_be_DpI_wydgJM_unsplash_4908.06a7c4caf5f959169493.jpg",
+    "static/media/tania_mousinho_YlpfE9uCakE_unsplash_2400.jpg": "/static/media/tania_mousinho_YlpfE9uCakE_unsplash_2400.1ccbd79341cff13bd4fc.jpg",
+    "static/media/marko_pekic_IpLa37Uj2Dw_unsplash_3542.jpg": "/static/media/marko_pekic_IpLa37Uj2Dw_unsplash_3542.434dc1a5d1e6a28dd155.jpg",
+    "static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_2400.jpg": "/static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_2400.65bbab75afbb5bb41d93.jpg",
+    "static/media/tania_mousinho_YlpfE9uCakE_unsplash_1920.jpg": "/static/media/tania_mousinho_YlpfE9uCakE_unsplash_1920.fdacb362c8acf4f5cb42.jpg",
+    "static/media/marko_pekic_IpLa37Uj2Dw_unsplash_2400.jpg": "/static/media/marko_pekic_IpLa37Uj2Dw_unsplash_2400.50c320e5c2d64241e185.jpg",
+    "static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_1920.jpg": "/static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_1920.5ab9f96572a6e60473d2.jpg",
+    "static/media/henry_be_DpI_wydgJM_unsplash_2400.jpg": "/static/media/henry_be_DpI_wydgJM_unsplash_2400.095bd1c8e4e0d8a7e0a0.jpg",
+    "static/media/marko_pekic_IpLa37Uj2Dw_unsplash_1920.jpg": "/static/media/marko_pekic_IpLa37Uj2Dw_unsplash_1920.07557c58755a727c12e7.jpg",
+    "static/media/henry_be_DpI_wydgJM_unsplash_1920.jpg": "/static/media/henry_be_DpI_wydgJM_unsplash_1920.f25e1303c22aee38b1ee.jpg",
+    "static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_1280.jpg": "/static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_1280.1b0202aec533e4059271.jpg",
+    "static/media/tania_mousinho_YlpfE9uCakE_unsplash_1280.jpg": "/static/media/tania_mousinho_YlpfE9uCakE_unsplash_1280.62081631868239d73233.jpg",
+    "static/media/henry_be_DpI_wydgJM_unsplash_1280.jpg": "/static/media/henry_be_DpI_wydgJM_unsplash_1280.11d8edef58bde2ae8949.jpg",
+    "static/media/marko_pekic_IpLa37Uj2Dw_unsplash_1280.jpg": "/static/media/marko_pekic_IpLa37Uj2Dw_unsplash_1280.8af4902a5c5b0ebc5092.jpg",
+    "static/media/tania_mousinho_YlpfE9uCakE_unsplash_768.jpg": "/static/media/tania_mousinho_YlpfE9uCakE_unsplash_768.52ebf4f92bcc532cdab7.jpg",
+    "static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_768.jpg": "/static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_768.da42b125bc3ddbe2267e.jpg",
+    "static/media/henry_be_DpI_wydgJM_unsplash_768.jpg": "/static/media/henry_be_DpI_wydgJM_unsplash_768.c8760244ec91cb48c47c.jpg",
+    "static/media/marko_pekic_IpLa37Uj2Dw_unsplash_768.jpg": "/static/media/marko_pekic_IpLa37Uj2Dw_unsplash_768.07227b3cec1b131b40c7.jpg",
+    "static/media/deploysByNetlify.svg": "/static/media/deploysByNetlify.1034b75f822e7a29826077d56682207f.svg",
+    "index.html": "/index.html",
+    "main.1547ffe7.css.map": "/static/css/main.1547ffe7.css.map",
+    "main.68bb5f28.js.map": "/static/js/main.68bb5f28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1547ffe7.css",
+    "static/js/main.68bb5f28.js"
+  ]
+}

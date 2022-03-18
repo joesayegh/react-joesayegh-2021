@@ -1,0 +1,56 @@
+.bg-intro {
+	background-image: url(../../assets/benjamin_davies_Oja2ty_9ZLM_unsplash_768.jpg);
+	background-size: cover;
+	background-position: 35% 100%;
+	background-repeat: no-repeat;
+	max-height: 100vh;
+
+	@media (prefers-color-scheme: dark) {
+		background-position: 85% 100%;
+		background-image: url(../../assets/henry_be_DpI_wydgJM_unsplash_768.jpg);
+	}
+
+	@media screen and (min-width: 768px) {
+		background-image: url(../../assets/benjamin_davies_Oja2ty_9ZLM_unsplash_1280.jpg);
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/henry_be_DpI_wydgJM_unsplash_1280.jpg);
+		}
+	}
+
+	@media screen and (min-width: 1280px) {
+		background-image: url(../../assets/benjamin_davies_Oja2ty_9ZLM_unsplash_1920.jpg);
+
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/henry_be_DpI_wydgJM_unsplash_1920.jpg);
+		}
+	}
+
+	@media screen and (min-width: 1920px) {
+		background-image: url(../../assets/benjamin_davies_Oja2ty_9ZLM_unsplash_2400.jpg);
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/henry_be_DpI_wydgJM_unsplash_2400.jpg);
+		}
+	}
+
+	@media screen and (min-width: 2400px) {
+		background-image: url(../../assets/benjamin_davies_Oja2ty_9ZLM_unsplash_4896.jpg);
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/henry_be_DpI_wydgJM_unsplash_4908.jpg);
+		}
+	}
+}
+
+.intro-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	// HEIGHT IS CONTROLLED VIA JAVASCRIPT
+	// height: 100vh
+	color: #ffffff;
+	overflow: hidden;
+}
+
+// MAKE TYPEWRITER TEXT APPEAR ON ONE SAME LINE
+.Typewriter {
+	display: inline;
+}

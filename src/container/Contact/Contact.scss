@@ -1,0 +1,107 @@
+.bg-contact-form {
+	background-image: url(../../assets/tania_mousinho_YlpfE9uCakE_unsplash_6016.jpg);
+	background-size: cover;
+	background-position: 50% 75%;
+	background-repeat: no-repeat;
+
+	@media (prefers-color-scheme: dark) {
+		background-image: url(../../assets/marko_pekic_IpLa37Uj2Dw_unsplash_3542.jpg);
+		background-position: 50% 50%;
+	}
+
+	@media screen and (min-width: 768px) {
+		background-image: url(../../assets/tania_mousinho_YlpfE9uCakE_unsplash_1280.jpg);
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/marko_pekic_IpLa37Uj2Dw_unsplash_1280.jpg);
+		}
+	}
+
+	@media screen and (min-width: 1280px) {
+		background-image: url(../../assets/tania_mousinho_YlpfE9uCakE_unsplash_1920.jpg);
+
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/marko_pekic_IpLa37Uj2Dw_unsplash_1920.jpg);
+		}
+	}
+
+	@media screen and (min-width: 1920px) {
+		background-image: url(../../assets/tania_mousinho_YlpfE9uCakE_unsplash_2400.jpg);
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/marko_pekic_IpLa37Uj2Dw_unsplash_2400.jpg);
+		}
+	}
+
+	@media screen and (min-width: 2400px) {
+		background-image: url(../../assets/tania_mousinho_YlpfE9uCakE_unsplash_6016.jpg);
+		@media (prefers-color-scheme: dark) {
+			background-image: url(../../assets/marko_pekic_IpLa37Uj2Dw_unsplash_3542.jpg);
+		}
+	}
+}
+
+// CONTACT FORM
+.contact-form {
+	padding: 0;
+
+	@media screen and (min-width: 540px) {
+		padding: 50px 0;
+	}
+
+	&-wrapper {
+		background-color: rgba(0, 0, 0, 0.7);
+		color: #fff;
+		padding: 80px 30px;
+
+		@media screen and (min-width: 540px) {
+			max-width: 300px;
+			margin: 0 auto;
+			padding: 50px 100px;
+		}
+
+		h2 {
+			margin-bottom: 20px;
+		}
+
+		label {
+			display: block;
+			font-size: 13px;
+			letter-spacing: 0.15em;
+			text-transform: uppercase;
+		}
+
+		input,
+		textarea {
+			width: 100%;
+			margin: 10px 0 20px;
+			font-size: 15px;
+			padding: 5px 0 5px 5px;
+			background: #444;
+			border: #000;
+			border-bottom: 1px solid var(--accent);
+			color: #fff;
+		}
+
+		button {
+			width: 100%;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 20px;
+			text-transform: uppercase;
+			background-color: var(--accent);
+			border: 1px solid var(--accent);
+			color: var(--bg);
+			border-radius: 1000px;
+			cursor: pointer;
+			padding: 12px 0;
+			transition: all 0.6s;
+
+			// HOVER AND ACTIVE STATES
+			&:hover,
+			&:focus {
+				background-color: var(--bg);
+				border: 1px solid var(--text);
+				color: var(--text);
+			}
+		}
+	}
+}
