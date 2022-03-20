@@ -31,6 +31,10 @@ body {
 	margin: 0;
 	// STOP OVERFLOWING ELEMENTS
 	overflow-x: hidden;
+	// BACKGROUND COLOUR
+	background-color: var(--bg);
+	// TEXT COLOUR
+	color: var(--text);
 }
 
 *,
