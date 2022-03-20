@@ -25,7 +25,7 @@ const Footer = () => {
 							<a href="https://github.com/joesayegh" target="_blank" rel="noopener noreferrer" aria-label="GitHub Link (Opens in a new tab)">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.775 117.793">
 									<g id="github">
-										<path d="M60.388,0A60.394,60.394,0,0,0,41.3,117.69c3.017.558,4.126-1.311,4.126-2.906,0-1.439-.056-6.2-.082-11.243C28.541,107.194,25,96.416,25,96.416c-2.747-6.979-6.7-8.836-6.7-8.836-5.479-3.748.413-3.671.413-3.671,6.064.426,9.257,6.224,9.257,6.224,5.386,9.231,14.127,6.562,17.573,5.019.542-3.9,2.107-6.567,3.834-8.075-13.413-1.526-27.514-6.7-27.514-29.844a23.371,23.371,0,0,1,6.223-16.208c-.627-1.522-2.694-7.664.585-15.982,0,0,5.071-1.622,16.61,6.191a57.257,57.257,0,0,1,30.244,0c11.526-7.813,16.589-6.191,16.589-6.191,3.288,8.318,1.22,14.46.593,15.982a23.324,23.324,0,0,1,6.215,16.208c0,23.2-14.127,28.3-27.574,29.8,2.166,1.874,4.1,5.549,4.1,11.183,0,8.08-.07,14.583-.07,16.572,0,1.608,1.087,3.49,4.148,2.9A60.4,60.4,0,0,0,60.388,0Z" fill-rule="evenodd" />
+										<path d="M60.388,0A60.394,60.394,0,0,0,41.3,117.69c3.017.558,4.126-1.311,4.126-2.906,0-1.439-.056-6.2-.082-11.243C28.541,107.194,25,96.416,25,96.416c-2.747-6.979-6.7-8.836-6.7-8.836-5.479-3.748.413-3.671.413-3.671,6.064.426,9.257,6.224,9.257,6.224,5.386,9.231,14.127,6.562,17.573,5.019.542-3.9,2.107-6.567,3.834-8.075-13.413-1.526-27.514-6.7-27.514-29.844a23.371,23.371,0,0,1,6.223-16.208c-.627-1.522-2.694-7.664.585-15.982,0,0,5.071-1.622,16.61,6.191a57.257,57.257,0,0,1,30.244,0c11.526-7.813,16.589-6.191,16.589-6.191,3.288,8.318,1.22,14.46.593,15.982a23.324,23.324,0,0,1,6.215,16.208c0,23.2-14.127,28.3-27.574,29.8,2.166,1.874,4.1,5.549,4.1,11.183,0,8.08-.07,14.583-.07,16.572,0,1.608,1.087,3.49,4.148,2.9A60.4,60.4,0,0,0,60.388,0Z" />
 										<path d="M22.872,86.7c-.133.3-.605.391-1.035.185s-.684-.607-.542-.908.6-.394,1.04-.188.688.61.537.911Z" />
 										<path d="M25.318,89.432c-.288.266-.851.142-1.233-.28a.921.921,0,0,1-.177-1.254c.3-.267.843-.142,1.238.279s.473.984.172,1.255Z" />
 										<path d="M27.7,92.909c-.37.258-.975.017-1.349-.52s-.371-1.182.008-1.44.971-.025,1.35.507.369,1.191-.009,1.453Z" />
@@ -41,11 +41,11 @@ const Footer = () => {
 							<a href="https://codepen.io/joesayegh" target="_blank" rel="noopener noreferrer" aria-label="CodePen Link (Opens in a new tab)">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
 									<g id="codepen">
-										<polygon points="11 1 21 7.5 21 14.5 11 21 1 14.5 1 7.5 11 1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-										<line x1="11" y1="21" x2="11" y2="14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-										<polyline points="21 7.5 11 14.5 1 7.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-										<polyline points="1 14.5 11 7.5 21 14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-										<line x1="11" y1="1" x2="11" y2="7.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+										<polygon points="11 1 21 7.5 21 14.5 11 21 1 14.5 1 7.5 11 1" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+										<line x1="11" y1="21" x2="11" y2="14.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+										<polyline points="21 7.5 11 14.5 1 7.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+										<polyline points="1 14.5 11 7.5 21 14.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+										<line x1="11" y1="1" x2="11" y2="7.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
 									</g>
 								</svg>
 							</a>
