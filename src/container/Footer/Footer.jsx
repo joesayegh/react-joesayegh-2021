@@ -73,7 +73,7 @@ const Footer = () => {
 								Developed with <a href="https://code.visualstudio.com/">Visual Studio Code</a> and <a href="https://www.github.com">Github</a>.
 							</span>
 							<a className="netlify-logo" href="https://www.netlify.com">
-								<img src={images.deploysByNetlify} alt="Netlify Logo" />
+								<img src={images.deploysByNetlify} width="110" height="49" alt="Netlify Logo" />
 							</a>
 							&copy; {today.getFullYear()} Joe Sayegh. All rights reserved.
 							<br />
