@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1547ffe7.css",
-    "main.js": "/static/js/main.68bb5f28.js",
+    "main.js": "/static/js/main.49a92c30.js",
     "static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_4896.jpg": "/static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_4896.d956bf60e9e879a4e57d.jpg",
     "static/media/tania_mousinho_YlpfE9uCakE_unsplash_6016.jpg": "/static/media/tania_mousinho_YlpfE9uCakE_unsplash_6016.83c6cf28c5c1d8fafd61.jpg",
     "static/media/henry_be_DpI_wydgJM_unsplash_4908.jpg": "/static/media/henry_be_DpI_wydgJM_unsplash_4908.06a7c4caf5f959169493.jpg",
@@ -22,13 +22,14 @@
     "static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_768.jpg": "/static/media/benjamin_davies_Oja2ty_9ZLM_unsplash_768.da42b125bc3ddbe2267e.jpg",
     "static/media/henry_be_DpI_wydgJM_unsplash_768.jpg": "/static/media/henry_be_DpI_wydgJM_unsplash_768.c8760244ec91cb48c47c.jpg",
     "static/media/marko_pekic_IpLa37Uj2Dw_unsplash_768.jpg": "/static/media/marko_pekic_IpLa37Uj2Dw_unsplash_768.07227b3cec1b131b40c7.jpg",
-    "static/media/deploysByNetlify.svg": "/static/media/deploysByNetlify.1034b75f822e7a29826077d56682207f.svg",
+    "service-worker.js": "/service-worker.js",
+    "static/media/deploysByNetlify.svg": "/static/media/deploysByNetlify.0cac1be5483e00468fab80f351ec76b2.svg",
     "index.html": "/index.html",
     "main.1547ffe7.css.map": "/static/css/main.1547ffe7.css.map",
-    "main.68bb5f28.js.map": "/static/js/main.68bb5f28.js.map"
+    "main.49a92c30.js.map": "/static/js/main.49a92c30.js.map"
   },
   "entrypoints": [
     "static/css/main.1547ffe7.css",
-    "static/js/main.68bb5f28.js"
+    "static/js/main.49a92c30.js"
   ]
 }
