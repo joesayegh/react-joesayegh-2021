@@ -9,20 +9,20 @@ const Contact = () => {
 				<h2 className="text-center">Say Hello</h2>
 				<form name="contact" method="POST" data-netlify="true">
 					<p>
-						<label for="name">
+						<label htmlFor="name">
 							Name
 							<input id="name" type="text" name="name" />
 						</label>
 					</p>
 
 					<p>
-						<label for="email">
+						<label htmlFor="email">
 							Email
 							<input id="email" type="email" name="email" />
 						</label>
 					</p>
 					<p>
-						<label for="message">
+						<label htmlFor="message">
 							Message
 							<textarea id="message" name="message" rows="4"></textarea>
 						</label>
