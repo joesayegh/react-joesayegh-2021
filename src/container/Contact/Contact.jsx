@@ -7,8 +7,7 @@ const Contact = () => {
 		<section className="contact-form bg-contact-form">
 			<div className="contact-form-wrapper">
 				<h2 className="text-center">Say Hello</h2>
-				<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-					<input className="d-none" name="bot-field" />
+				<form name="contact" netlify>
 					<p>
 						<label>
 							Name: <input type="text" name="name" />
