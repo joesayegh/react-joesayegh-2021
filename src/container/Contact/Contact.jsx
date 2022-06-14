@@ -7,7 +7,8 @@ const Contact = () => {
 		<section className="contact-form bg-contact-form">
 			<div className="contact-form-wrapper">
 				<h2 className="text-center">Say Hello</h2>
-				<form name="contact" netlify>
+				<form name="contact" method="post">
+					<input type="hidden" name="form-name" value="contact" />
 					<p>
 						<label>
 							Name: <input type="text" name="name" />
